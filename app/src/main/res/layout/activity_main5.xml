@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.justjava.MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/guanyinlian"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      观音莲也称长生草、观音莲座、佛莲座，是一种以观叶为主的景天科长生草属多年生肉质植物，植株具莲座状叶盘，其品种很多，叶盘直径从3厘米至15厘米都有，肉质叶匙形，顶端尖，叶色依品种的不同，有灰绿、深绿、黄绿、红褐色等，叶顶端的尖既有绿色，也有红色或紫色，也是近年来销量比较大的多肉植物之一。"
+        android:layout_marginTop="40dp"
+            android:textColor="#030303"/>
+
+    </LinearLayout>
+
+</ScrollView>
